@@ -1,0 +1,15 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+**/.ipynb_checkpoints/
+
+
+# Models
+resources/trained_models/
+
+# Large data
+resources/datasets/
+
+# Optional
+.env
+.DS_Store

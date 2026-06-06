@@ -1,0 +1,13 @@
+services:
+  notebook:
+    build: .
+    image: jupyter-server
+    ports:
+      - "8888:8888"
+    volumes:
+      - /Users/deepankar/workspace/github.com/YadavDeepankar/genAI:/home/jovyan/work/genAI
+    dns:
+      - 8.8.8.8
+      - 8.8.4.4
+    environment:
+      JUPYTER_TOKEN: deepankar
