@@ -13,3 +13,6 @@ resources/datasets/
 # Optional
 .env
 .DS_Store
+
+#Secrects - API keys, Passwords
+secrets/*
